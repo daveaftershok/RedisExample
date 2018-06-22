@@ -22,7 +22,7 @@ namespace RedisExample.Controllers
 
             // Connection refers to a property that returns a ConnectionMultiplexer
             // as shown in the previous example.
-            IDatabase cache = lazyConnection.Value.GetDatabase();
+            IDatabase cache = lazyConnection.Value.GetDatabase(); 
 
             // Perform cache operations using the cache object...
 
