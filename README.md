@@ -14,4 +14,5 @@ The app uses the connection string in HomeController.cs:
 {
   string cacheConnection = ConfigurationManager.AppSettings["CacheConnection"].ToString();
   return ConnectionMultiplexer.Connect(cacheConnection);
-});```
+});
+```
